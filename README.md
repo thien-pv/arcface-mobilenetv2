@@ -35,6 +35,7 @@ Install these libraries with anaconda and pip:
 5. Data
 
 All datasets with faces must support [ImageFolder](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder) format. Look at the prepared examples in data directory.
+
 6. Data preprocessing and training
 
 To prepare data with cropped and aligned faces from your original images, run:
