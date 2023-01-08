@@ -46,8 +46,9 @@ python Face_main/train_model.py --embeddings Face_main/output/embeddings.pickle 
 
 Runing arcface model with python ./Face_main/run.py
 
+In file run.py, you can replace pretrained models with SSD, RetinaFace to detect faces or MTCNN. But, SSD and Retinaface are more good for results about FPS. Also, in our code, you can completely fix it if you get any errors.  
 Above, you can run and train it on your window laptop
 We have deployed code in 2 papers on Jetson Nano 4GB with 8MP Sony IMX219 77 degree CS Camera. Results, you can follow and read it in our papers (2. papers)
 
-
+Thank you so much!
 
