@@ -1,0 +1,2 @@
+python train_model.py --embeddings embeddings.pickle --recognizer ./output/recognizer.pickle --le ./output/le.pickle
+python susu.py --embeddings embeddings.pickle --recognizer ./output/recognizer.pickle --le ./output/le.pickle
