@@ -4,8 +4,10 @@
 Application of face recognition technique with Arcface model to Smart Camera System.
 
 2. Papers pulished
-
+In this first paper, we used Arcface model + Retinaface ( detect model with backbone model: Mobilenetv2) for good results.
 https://www.researchgate.net/publication/365729132_Application_of_Face_Recognition_Technique_with_ArcFace_model_to_Smart_Camera_System
+
+In this second paper, we used Arcface model + SSD Mobilenet V2 for impressed results. Also, we combined it with action recognition to control sensors and devices in smart home system. 
 https://www.researchgate.net/publication/365362063_Smart_home_Management_System_with_Face_Recognition_based_on_ArcFace_model_in_Deep_Convolutional_Neural_Network
 
 3. Dependencies
