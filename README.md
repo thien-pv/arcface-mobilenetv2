@@ -24,5 +24,9 @@ Install these libraries with anaconda and pip:
 - torchvision==0.6.1
 - tqdm==4.47.0
 
-4. Pretrained model and datasets
-Download checkpoint for a model from GoogleDrive/Baidu and move it to checkpoint/backbone_ir50_ms1m_epoch120.pth
+4. Pretrained model
+- Download checkpoint for a model from [GoogleDrive/Baidu](https://drive.google.com/drive/folders/1omzvXV_djVIW2A7I09DWMe9JR-9o_MYh) and move it to checkpoint/backbone_ir50_ms1m_epoch120.pth
+- Download pretrained model of Asian datasets: https://drive.google.com/file/d/1ABQO2_04zIY0HqF7ElAEH80-xupW96c-/view?usp=share_link 
+
+5. Data
+All datasets with faces must support [ImageFolder](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder) format. Look at the prepared examples in data directory.
