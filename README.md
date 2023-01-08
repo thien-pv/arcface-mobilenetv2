@@ -29,4 +29,25 @@ Install these libraries with anaconda and pip:
 - Download pretrained model of Asian datasets: https://drive.google.com/file/d/1ABQO2_04zIY0HqF7ElAEH80-xupW96c-/view?usp=share_link 
 
 5. Data
+
 All datasets with faces must support [ImageFolder](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder) format. Look at the prepared examples in data directory.
+6. Data preprocessing and training
+
+To prepare data with cropped and aligned faces from your original images, run:
+
+python face_alignment.py --tags Face_main/data/student --crop_size 112
+
+To use t-SNE for dimensionality reduction and 2D visualization of face embeddings, run:
+
+python tsne.py --tags student
+
+File named embeddings.pickle in ouput when traning:
+python Face_main/train_model.py --embeddings Face_main/output/embeddings.pickle --recognizer ./Face_main/output/recognizer.pickle --le ./Face_main/output/le.pickle
+
+Runing arcface model with python ./Face_main/run.py
+
+Above, you can run and train it on your window laptop
+We have deployed code in 2 papers on Jetson Nano 4GB with 8MP Sony IMX219 77 degree CS Camera. Results, you can follow and read it in our papers (2. papers)
+
+
+
